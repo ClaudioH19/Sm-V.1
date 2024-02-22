@@ -1,0 +1,17 @@
+#canvas{
+    background-color:rgb(0, 0, 0);
+}
+#content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+body{
+    background-color: black;
+}
+
