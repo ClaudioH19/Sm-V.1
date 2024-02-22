@@ -1,0 +1,21 @@
+body{
+   display: flex;
+   align-items: center; 
+   background-color: lightgray;
+}
+
+#screen{
+    margin-top: 5%;
+    background-color:black;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px lightgray;
+    
+}
+
+#inputs{
+
+    margin-top: 5%;
+
+}

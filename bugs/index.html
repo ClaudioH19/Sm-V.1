@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class="row">
+    <canvas class="col" id="screen">
+    
+    </canvas>
+    <div class="col" id="inputs">
+      <form action="#">
+        <p class="range-field">
+          <input type="range" id="test1" min="1" max="10000" value="50"/>
+        </p>
+        Refresh (<label id="rr1"></label>%)
+      </form>
+
+      <form action="#">
+        <p class="range-field">
+          <input type="range" id="test2" min="0" max="100" value="40"/>
+        </p>
+        Ratio explosions (<label id="rr2"></label>%)
+      </form>
+
+      <form action="#">
+        <p class="range-field">
+          <input type="range" id="test3" min="0" max="2000" value="500"/>
+        </p>
+        Time between Explosions (<label id="rr3"></label>ms)
+      </form>
+
+      <form action="#">
+        <p class="range-field">
+          <input type="range" id="test4" min="0" max="100" value="20"/>
+        </p>
+        Intelligence (<label id="rr4"></label>%)
+      </form>
+
+    </div>
+
+    </div>
+  
+  
+
+
+</body>
+<script src="script.js"></script>
+</html>
