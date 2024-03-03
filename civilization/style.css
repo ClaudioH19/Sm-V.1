@@ -1,0 +1,52 @@
+#canvas{
+    background-color:black;
+
+}
+#content{
+    margin: 0px;
+    width: 100%;
+
+}
+
+#screen{
+    width: 100%;
+}
+
+#gP{
+    width: 1685px;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.scrollable-div {
+    height: 819px; /* Altura máxima de la barra de desplazamiento */
+    overflow-y: scroll; /* Añade una barra de desplazamiento vertical */
+    scrollbar-width: thin; /* Grosor de la barra de desplazamiento (puede ser "thin", "auto" o "none") */
+ }
+ 
+ /* Estilos para navegadores WebKit (Chrome, Safari, Opera) */
+ .scrollable-div::-webkit-scrollbar {
+    width: 1680px; /* Ancho de la barra de desplazamiento */
+ }
+ 
+ .scrollable-div::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del thumb (el botón que se puede arrastrar) */
+    border-radius: 5px; /* Radio de borde del thumb */
+ }
+ 
+ /* Estilos para navegadores Firefox */
+ .scrollable-div {
+    scrollbar-color: #888 transparent; /* Define el color de la barra y del thumb */
+ }
+ 
+ /* Estilos para navegadores Internet Explorer y Edge */
+ .scrollable-div {
+    -ms-overflow-style: none; /* Oculta la barra de desplazamiento predeterminada en IE y Edge */
+ }
+ 
+ .scrollable-div::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento en WebKit */
+ }
